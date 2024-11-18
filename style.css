@@ -1,0 +1,118 @@
+body {
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  width: 400px;
+  margin: 5% auto;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form__input[type="text"],
+.form__input[type="email"],
+.form__textarea {
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 44px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form__input[type="text"]:focus,
+.form__input[type="email"]:focus,
+.form__textarea:focus {
+  border-color: #007bff;
+}
+
+.form__textarea {
+  max-height: 150px;
+  min-height: 40px;
+  resize: vertical;
+}
+
+.form__btn {
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form__btn:hover {
+  background-color: #0056b3;
+}
+
+.form__btn:active {
+  background-color: #00408d;
+}
+
+.sentMessage {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #d0eed6;
+  border: 2px solid #28a745;
+}
+
+.sentError {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  color: #dc3545;
+  font-weight: bold;
+  background-color: #f8d7da;
+  border: 2px solid #dc3545;
+}
+
+.repeatAction {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  color: #28a745;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #28a745;
+}
